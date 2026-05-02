@@ -102,6 +102,22 @@ export type DictShape = {
     toolsLabel: string;
     principlesLabel: string;
     principles: Principle[];
+    lore: {
+      label: string;
+      title: string;
+      titleEm: string;
+      text: string;
+    };
+    founder: {
+      label: string;
+      monogram: string;
+      name: string;
+      role: string;
+      epithet: string;
+      bio: string;
+      facts: { k: string; v: string }[];
+      quote: string;
+    };
   };
   contacto: {
     numeral: string;
@@ -129,6 +145,9 @@ export type DictShape = {
     motto: string;
     available: string;
     build: string;
+    aboutCta: string;
+    aboutClose: string;
+    aboutTitle: string;
   };
 };
 
@@ -349,6 +368,31 @@ const es: DictShape = {
           "Alcance, plazo, entrega. Hablamos directo. Sin sorpresas en la factura, sin scope creep.",
       },
     ],
+    lore: {
+      label: "// el nombre",
+      title: "Hay nombres",
+      titleEm: "que cargan historia.",
+      text:
+        "El nuestro pertenece a una figura antigua ligada al conocimiento, al fuego y al oficio de transformar la materia en algo nuevo. Somos un estudio de software que trabaja fuera del camino trillado: nos interesa lo que se hace con intención — código limpio, decisiones honestas y productos que no se parecen a todos los demás. Pensamos como artesanos, no como fábrica, y construimos cosas hechas para perdurar.",
+    },
+    founder: {
+      label: "// detrás del estudio",
+      monogram: "T·C",
+      name: "Tiberius Crowley",
+      role: "Fundador · Desarrollador principal",
+      epithet: "Alquimista del código",
+      bio:
+        "Ingeniero en sistemas y artesano digital. Convencido de que el software bueno se piensa más de lo que se escribe, y se mantiene más de lo que se entrega. Le interesa el oficio antes que la moda y la claridad antes que la novedad.",
+      facts: [
+        { k: "formación", v: "Ingeniero en sistemas computacionales" },
+        { k: "experiencia", v: "2+ años · ERPs y plataformas web" },
+        { k: "enfoque", v: "Arquitectura full-stack · sistemas distribuidos" },
+        { k: "stack", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
+        { k: "intereses", v: "Linux · automatización · código que dura" },
+        { k: "base", v: "México · disponible remoto" },
+      ],
+      quote: "Cada problema merece su propia solución.",
+    },
   },
   contacto: {
     numeral: "v.",
@@ -393,6 +437,9 @@ const es: DictShape = {
     motto: "código con propósito",
     available: "disponible para nuevos proyectos",
     build: "v.2026 · build 0.1.0",
+    aboutCta: "sobre nosotros",
+    aboutClose: "cerrar",
+    aboutTitle: "Sobre el estudio",
   },
 };
 
@@ -613,6 +660,31 @@ const en: DictShape = {
           "Scope, timeline, delivery. We speak directly. No invoice surprises, no scope creep.",
       },
     ],
+    lore: {
+      label: "// the name",
+      title: "Some names",
+      titleEm: "carry history.",
+      text:
+        "Ours belongs to an ancient figure tied to knowledge, fire, and the craft of transforming matter into something new. We are a software studio that works off the beaten path: we care about what's made with intent — clean code, honest decisions, products that don't look like everyone else's. We think like craftsmen, not like a factory, and we build things made to last.",
+    },
+    founder: {
+      label: "// behind the studio",
+      monogram: "T·C",
+      name: "Tiberius Crowley",
+      role: "Founder · Lead developer",
+      epithet: "Code alchemist",
+      bio:
+        "Systems engineer and digital craftsman. Convinced that good software is thought through more than it's written, and maintained more than it's delivered. He values craft over fashion and clarity over novelty.",
+      facts: [
+        { k: "education", v: "B.Sc. Computer Systems Engineering" },
+        { k: "experience", v: "2+ years · ERPs & web platforms" },
+        { k: "focus", v: "Full-stack architecture · distributed systems" },
+        { k: "stack", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
+        { k: "interests", v: "Linux · automation · code that lasts" },
+        { k: "base", v: "Mexico · remote available" },
+      ],
+      quote: "Every problem deserves its own solution.",
+    },
   },
   contacto: {
     numeral: "v.",
@@ -657,6 +729,9 @@ const en: DictShape = {
     motto: "code with intent",
     available: "available for new projects",
     build: "v.2026 · build 0.1.0",
+    aboutCta: "about us",
+    aboutClose: "close",
+    aboutTitle: "About the studio",
   },
 };
 
@@ -877,6 +952,31 @@ const de: DictShape = {
           "Umfang, Zeitplan, Lieferung. Wir sprechen direkt. Keine Rechnungs-Überraschungen, kein Scope Creep.",
       },
     ],
+    lore: {
+      label: "// der Name",
+      title: "Manche Namen",
+      titleEm: "tragen Geschichte.",
+      text:
+        "Unserer gehört einer alten Figur, verbunden mit Wissen, Feuer und der Kunst, Materie in etwas Neues zu verwandeln. Wir sind ein Software-Studio, das abseits ausgetretener Pfade arbeitet: Uns interessiert, was mit Absicht entsteht — sauberer Code, ehrliche Entscheidungen, Produkte, die nicht aussehen wie alle anderen. Wir denken wie Handwerker, nicht wie eine Fabrik, und wir bauen Dinge, die Bestand haben.",
+    },
+    founder: {
+      label: "// hinter dem Studio",
+      monogram: "T·C",
+      name: "Tiberius Crowley",
+      role: "Gründer · Leitender Entwickler",
+      epithet: "Code-Alchemist",
+      bio:
+        "Systeminformatiker und digitaler Handwerker. Überzeugt davon, dass gute Software mehr durchdacht als geschrieben, und mehr gewartet als ausgeliefert wird. Er bevorzugt Handwerk vor Mode und Klarheit vor Neuheit.",
+      facts: [
+        { k: "Ausbildung", v: "Diplom Systeminformatik" },
+        { k: "Erfahrung", v: "2+ Jahre · ERPs & Webplattformen" },
+        { k: "Schwerpunkt", v: "Full-Stack-Architektur · verteilte Systeme" },
+        { k: "Stack", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
+        { k: "Interessen", v: "Linux · Automatisierung · Code, der bleibt" },
+        { k: "Standort", v: "Mexiko · remote verfügbar" },
+      ],
+      quote: "Jedes Problem verdient seine eigene Lösung.",
+    },
   },
   contacto: {
     numeral: "v.",
@@ -921,6 +1021,9 @@ const de: DictShape = {
     motto: "Code mit Absicht",
     available: "verfügbar für neue Projekte",
     build: "v.2026 · build 0.1.0",
+    aboutCta: "über uns",
+    aboutClose: "schließen",
+    aboutTitle: "Über das Studio",
   },
 };
 
@@ -1131,6 +1234,31 @@ const ja: DictShape = {
           "範囲、納期、納品。率直に話します。請求の驚きなし、スコープクリープなし。",
       },
     ],
+    lore: {
+      label: "// 名前について",
+      title: "名前には",
+      titleEm: "歴史が宿る。",
+      text:
+        "我々の名は、知と火、そして物質を新しいものへと変容させる技にまつわる古き存在に属する。我々は、定石から外れた道を歩むソフトウェアスタジオだ。意図を持って作られたものにこそ価値を見出す — 清潔なコード、誠実な判断、どこにでもある製品とは似つかない仕事。工房の職人として考え、工場としては考えない。長く使えるものを作る。",
+    },
+    founder: {
+      label: "// スタジオの背後に",
+      monogram: "T·C",
+      name: "Tiberius Crowley",
+      role: "創業者 · 主任開発者",
+      epithet: "コードの錬金術師",
+      bio:
+        "情報システム技術者にして、デジタル時代の職人。良いソフトウェアは書かれる以上に考えられ、納品される以上に保守されると信じている。流行よりも仕事の質を、新奇さよりも明快さを大切にする。",
+      facts: [
+        { k: "学歴", v: "情報システム工学士" },
+        { k: "経験", v: "2年以上 · ERPとウェブプラットフォーム" },
+        { k: "専門", v: "フルスタックアーキテクチャ · 分散システム" },
+        { k: "スタック", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
+        { k: "関心", v: "Linux · 自動化 · 持続するコード" },
+        { k: "拠点", v: "メキシコ · リモート対応" },
+      ],
+      quote: "問題ごとに、それにふさわしい解がある。",
+    },
   },
   contacto: {
     numeral: "v.",
@@ -1175,6 +1303,9 @@ const ja: DictShape = {
     motto: "意図あるコード",
     available: "新規プロジェクト受付中",
     build: "v.2026 · build 0.1.0",
+    aboutCta: "当スタジオについて",
+    aboutClose: "閉じる",
+    aboutTitle: "スタジオについて",
   },
 };
 

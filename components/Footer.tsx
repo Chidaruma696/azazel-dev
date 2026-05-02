@@ -1,10 +1,13 @@
 "use client";
+import { useState } from "react";
 import { SigilMark } from "./Sigil";
 import { useT } from "./I18nProvider";
+import AboutModal from "./AboutModal";
 
 export default function Footer() {
   const { t } = useT();
   const f = t.footer;
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   return (
     <footer className="relative border-t border-ash/60 px-6 lg:px-12 pt-16 lg:pt-20 pb-10 overflow-hidden">
@@ -86,14 +89,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 lg:mt-20 pt-6 border-t border-ash/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.25em] text-bone-dim">
+        <div className="mt-16 lg:mt-20 pt-6 border-t border-ash/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.22em] sm:tracking-[0.25em] text-bone-dim">
           <span>{f.build}</span>
-          <span className="flex items-center gap-2">
-            <span className="size-1.5 rounded-full bg-gold animate-pulse" />
-            {f.available}
-          </span>
+          <div className="flex flex-wrap items-center gap-x-5 sm:gap-x-6 gap-y-2">
+            <button
+              type="button"
+              onClick={() => setAboutOpen(true)}
+              className="group inline-flex items-center gap-2 text-bone-dim hover:text-gold transition-colors"
+            >
+              <span className="text-gold/60 group-hover:text-gold">[</span>
+              <span>{f.aboutCta}</span>
+              <span className="text-gold/60 group-hover:text-gold">]</span>
+            </button>
+            <span className="flex items-center gap-2">
+              <span className="size-1.5 rounded-full bg-gold animate-pulse" />
+              {f.available}
+            </span>
+          </div>
         </div>
       </div>
+
+      <AboutModal open={aboutOpen} onClose={() => setAboutOpen(false)} />
     </footer>
   );
 }
