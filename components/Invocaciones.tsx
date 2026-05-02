@@ -33,7 +33,12 @@ export default function Invocaciones() {
               }}
               className="group relative bg-ink p-8 lg:p-10 transition-colors hover:bg-ink-soft"
             >
-              <header className="flex items-start justify-between">
+              <a
+                href="#contacto"
+                aria-label={`${s.cta}: ${item.name}`}
+                className="absolute inset-0 z-30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              />
+              <header className="relative flex items-start justify-between">
                 <span className="font-display text-3xl text-gold/65">
                   {item.numeral}
                 </span>
