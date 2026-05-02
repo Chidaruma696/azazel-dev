@@ -62,18 +62,13 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-gold transition-colors">
+                  <a
+                    href="https://github.com/Tiberius-dev66"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gold transition-colors"
+                  >
                     {f.channel.github}
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-gold transition-colors">
-                    {f.channel.linkedin}
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-gold transition-colors">
-                    {f.channel.telegram}
                   </a>
                 </li>
               </ul>

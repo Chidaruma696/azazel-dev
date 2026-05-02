@@ -370,12 +370,7 @@ const es: DictShape = {
     emailLabel: "correo",
     emailCta: "enviar mensaje",
     response: "respondemos en menos de 48h hábiles",
-    socials: [
-      { label: "GitHub", handle: "@azazeldev" },
-      { label: "LinkedIn", handle: "/azazeldev" },
-      { label: "Telegram", handle: "@azazeldev" },
-      { label: "Twitter / X", handle: "@azazeldev" },
-    ],
+    socials: [{ label: "GitHub", handle: "@Tiberius-dev66" }],
   },
   footer: {
     tagline:
@@ -639,12 +634,7 @@ const en: DictShape = {
     emailLabel: "email",
     emailCta: "send message",
     response: "we reply in under 48 business hours",
-    socials: [
-      { label: "GitHub", handle: "@azazeldev" },
-      { label: "LinkedIn", handle: "/azazeldev" },
-      { label: "Telegram", handle: "@azazeldev" },
-      { label: "Twitter / X", handle: "@azazeldev" },
-    ],
+    socials: [{ label: "GitHub", handle: "@Tiberius-dev66" }],
   },
   footer: {
     tagline:
@@ -908,12 +898,7 @@ const de: DictShape = {
     emailLabel: "E-Mail",
     emailCta: "Nachricht senden",
     response: "wir antworten in unter 48 Geschäftsstunden",
-    socials: [
-      { label: "GitHub", handle: "@azazeldev" },
-      { label: "LinkedIn", handle: "/azazeldev" },
-      { label: "Telegram", handle: "@azazeldev" },
-      { label: "Twitter / X", handle: "@azazeldev" },
-    ],
+    socials: [{ label: "GitHub", handle: "@Tiberius-dev66" }],
   },
   footer: {
     tagline:
@@ -1167,12 +1152,7 @@ const ja: DictShape = {
     emailLabel: "メール",
     emailCta: "メッセージを送る",
     response: "48営業時間以内に返信します",
-    socials: [
-      { label: "GitHub", handle: "@azazeldev" },
-      { label: "LinkedIn", handle: "/azazeldev" },
-      { label: "Telegram", handle: "@azazeldev" },
-      { label: "Twitter / X", handle: "@azazeldev" },
-    ],
+    socials: [{ label: "GitHub", handle: "@Tiberius-dev66" }],
   },
   footer: {
     tagline:

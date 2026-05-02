@@ -66,9 +66,14 @@ export default function Convoca() {
             </div>
           </a>
 
-          <div className="grid grid-cols-2 gap-px bg-ash/40">
+          <div className="bg-ash/40 p-px">
             {c.socials.map((s) => (
-              <ContactTile key={s.label} label={s.label} handle={s.handle} href="#" />
+              <ContactTile
+                key={s.label}
+                label={s.label}
+                handle={s.handle}
+                href="https://github.com/Tiberius-dev66"
+              />
             ))}
           </div>
 
@@ -103,6 +108,8 @@ function ContactTile({
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group block bg-ink p-5 hover:bg-ink-soft transition-colors"
     >
       <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-bone-dim mb-2">
