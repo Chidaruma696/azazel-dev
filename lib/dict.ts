@@ -377,7 +377,7 @@ const es: DictShape = {
     },
     founder: {
       label: "// detrás del estudio",
-      monogram: "T·C",
+      monogram: "J·P",
       name: "J. Pablo Mtz.",
       role: "Fundador · Desarrollador principal",
       epithet: "Alquimista del código",
@@ -669,7 +669,7 @@ const en: DictShape = {
     },
     founder: {
       label: "// behind the studio",
-      monogram: "T·C",
+      monogram: "J·P",
       name: "J. Pablo Mtz.",
       role: "Founder · Lead developer",
       epithet: "Code alchemist",
@@ -961,7 +961,7 @@ const de: DictShape = {
     },
     founder: {
       label: "// hinter dem Studio",
-      monogram: "T·C",
+      monogram: "J·P",
       name: "J. Pablo Mtz.",
       role: "Gründer · Leitender Entwickler",
       epithet: "Code-Alchemist",
@@ -1243,7 +1243,7 @@ const ja: DictShape = {
     },
     founder: {
       label: "// スタジオの背後に",
-      monogram: "T·C",
+      monogram: "J·P",
       name: "J. Pablo Mtz.",
       role: "創業者 · 主任開発者",
       epithet: "コードの錬金術師",
