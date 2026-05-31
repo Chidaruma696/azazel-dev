@@ -385,7 +385,6 @@ const es: DictShape = {
         "Ingeniero en sistemas y artesano digital. Convencido de que el software bueno se piensa más de lo que se escribe, y se mantiene más de lo que se entrega. Le interesa el oficio antes que la moda y la claridad antes que la novedad.",
       facts: [
         { k: "formación", v: "Ingeniero en sistemas computacionales" },
-        { k: "experiencia", v: "2+ años · ERPs y plataformas web" },
         { k: "enfoque", v: "Arquitectura full-stack · sistemas distribuidos" },
         { k: "stack", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
         { k: "intereses", v: "Linux · automatización · código que dura" },
@@ -677,7 +676,6 @@ const en: DictShape = {
         "Systems engineer and digital craftsman. Convinced that good software is thought through more than it's written, and maintained more than it's delivered. He values craft over fashion and clarity over novelty.",
       facts: [
         { k: "education", v: "B.Sc. Computer Systems Engineering" },
-        { k: "experience", v: "2+ years · ERPs & web platforms" },
         { k: "focus", v: "Full-stack architecture · distributed systems" },
         { k: "stack", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
         { k: "interests", v: "Linux · automation · code that lasts" },
@@ -969,7 +967,6 @@ const de: DictShape = {
         "Systeminformatiker und digitaler Handwerker. Überzeugt davon, dass gute Software mehr durchdacht als geschrieben, und mehr gewartet als ausgeliefert wird. Er bevorzugt Handwerk vor Mode und Klarheit vor Neuheit.",
       facts: [
         { k: "Ausbildung", v: "Diplom Systeminformatik" },
-        { k: "Erfahrung", v: "2+ Jahre · ERPs & Webplattformen" },
         { k: "Schwerpunkt", v: "Full-Stack-Architektur · verteilte Systeme" },
         { k: "Stack", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
         { k: "Interessen", v: "Linux · Automatisierung · Code, der bleibt" },
@@ -1251,7 +1248,6 @@ const ja: DictShape = {
         "情報システム技術者にして、デジタル時代の職人。良いソフトウェアは書かれる以上に考えられ、納品される以上に保守されると信じている。流行よりも仕事の質を、新奇さよりも明快さを大切にする。",
       facts: [
         { k: "学歴", v: "情報システム工学士" },
-        { k: "経験", v: "2年以上 · ERPとウェブプラットフォーム" },
         { k: "専門", v: "フルスタックアーキテクチャ · 分散システム" },
         { k: "スタック", v: "TypeScript · PostgreSQL · Next.js · Python · Go" },
         { k: "関心", v: "Linux · 自動化 · 持続するコード" },

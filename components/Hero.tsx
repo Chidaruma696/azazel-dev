@@ -98,10 +98,9 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.5 }}
-            className="mt-16 grid grid-cols-3 gap-6 max-w-md font-mono text-[10px] uppercase tracking-[0.22em]"
+            className="mt-16 grid grid-cols-2 gap-6 max-w-md font-mono text-[10px] uppercase tracking-[0.22em]"
           >
             <Stat n="05" l={t.hero.statProjects} />
-            <Stat n="03" l={t.hero.statYears} />
             <Stat n="∞" l={t.hero.statCode} />
           </motion.div>
         </motion.div>
