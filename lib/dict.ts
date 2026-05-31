@@ -378,7 +378,7 @@ const es: DictShape = {
     founder: {
       label: "// detrás del estudio",
       monogram: "T·C",
-      name: "Tiberius Crowley",
+      name: "J. Pablo Mtz.",
       role: "Fundador · Desarrollador principal",
       epithet: "Alquimista del código",
       bio:
@@ -670,7 +670,7 @@ const en: DictShape = {
     founder: {
       label: "// behind the studio",
       monogram: "T·C",
-      name: "Tiberius Crowley",
+      name: "J. Pablo Mtz.",
       role: "Founder · Lead developer",
       epithet: "Code alchemist",
       bio:
@@ -962,7 +962,7 @@ const de: DictShape = {
     founder: {
       label: "// hinter dem Studio",
       monogram: "T·C",
-      name: "Tiberius Crowley",
+      name: "J. Pablo Mtz.",
       role: "Gründer · Leitender Entwickler",
       epithet: "Code-Alchemist",
       bio:
@@ -1244,7 +1244,7 @@ const ja: DictShape = {
     founder: {
       label: "// スタジオの背後に",
       monogram: "T·C",
-      name: "Tiberius Crowley",
+      name: "J. Pablo Mtz.",
       role: "創業者 · 主任開発者",
       epithet: "コードの錬金術師",
       bio:
